@@ -6526,6 +6526,13 @@ let cards = [
     author: 'Marion',
     githubLink: 'https://github.com/marionjudy13'
   },
+  {
+    artName: 'Yoshimitsu',
+    pageLink: './Art/Yoshimitsu/index.html',
+    imageLink: './Art/Yoshimitsu/colored-cube.gif',
+    author: 'yozooo',
+    githubLink: 'https://github.com/yozooo'
+  },
 ];
 
 // +--------------------------------------------------------------------------------+

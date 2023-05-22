@@ -1,0 +1,91 @@
+
+body {
+    background: linear-gradient(rgb(221, 221, 221), rgb(121, 121, 121),);
+    margin: 0;
+    padding: 0;
+  }
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+#first {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid black;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+#second {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+#third {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+#fourth {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: gold;
+    border: 1px solid black;
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-timing-function: ease-in ease-out;
+}
+
+@keyframes example {
+    0% {
+        background-color:red;
+        left: 500px; 
+        top: 200px;
+    }
+    25% {
+        background-color:rgb(255, 255, 255);
+        left: 600px; 
+        top: 200px;;
+      }
+    50% {
+        background-color:rgb(255, 187, 0);
+        left: 600px; 
+        top: 300px;
+      }
+    75% {
+        background-color:rgb(0, 4, 255);
+        left: 500px; 
+        top: 300px;      }
+    100% {
+        background-color:red;
+        left: 500px; 
+        top: 200px;    }
+  }
